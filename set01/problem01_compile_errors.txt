@@ -1,0 +1,4 @@
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c: In function 'main':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c:8:5: error: expected ';' before '}' token
+     }
+     ^
