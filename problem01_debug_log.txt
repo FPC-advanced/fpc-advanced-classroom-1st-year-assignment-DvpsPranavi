@@ -1,0 +1,18 @@
+Breakpoint 1 at 0x40146e: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c, line 5.
+Starting program: c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.exe 
+[New Thread 10848.0x340]
+[New Thread 10848.0x1c64]
+
+Breakpoint 1, main () at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c:5
+5	    for (int i = 0; i < 3; i++)
+Continuing.
+[Inferior 1 (process 10848) exited normally]
+Breakpoint 1 at 0x40146e: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c, line 5.
+Starting program: c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.exe 
+[New Thread 17972.0x758]
+[New Thread 17972.0x2340]
+
+Breakpoint 1, main () at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem01.c:5
+5	    for (int i = 0; i < 3; i++)
+Continuing.
+[Inferior 1 (process 17972) exited normally]
