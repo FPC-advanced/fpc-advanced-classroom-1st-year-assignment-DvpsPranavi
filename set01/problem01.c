@@ -1,9 +1,14 @@
 // 1. Write a C program to print your name.
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+int main() 
 {
-    {
-        printf("Pranavi\n");
-    }
+    char str[100]; 
+
+    printf("Please enter your name: ");
+    scanf("%s", str); 
+
+    printf(" %s\n", str); 
+
     return 0;
 }
