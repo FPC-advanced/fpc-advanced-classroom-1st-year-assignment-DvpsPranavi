@@ -1,0 +1,25 @@
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c: In function 'compare':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:29:12: warning: 'return' with a value, in function returning void
+     return largest;
+            ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:24:6: note: declared here
+ void compare(int a,int b, int c,int *largest)
+      ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:34:12: warning: 'return' with a value, in function returning void
+     return largest;
+            ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:24:6: note: declared here
+ void compare(int a,int b, int c,int *largest)
+      ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:40:12: warning: 'return' with a value, in function returning void
+     return largest;
+            ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:24:6: note: declared here
+ void compare(int a,int b, int c,int *largest)
+      ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:42:10: warning: 'return' with a value, in function returning void
+   return 0;
+          ^
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem06.c:24:6: note: declared here
+ void compare(int a,int b, int c,int *largest)
+      ^~~~~~~
