@@ -33,7 +33,7 @@ int compare(int a, int b, int c)
             return a;
         } 
 
-        if(b>=a &&b>=c);
+        if(b>=a &&b>=c)
         {
             return b;
         }  
