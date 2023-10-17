@@ -13,5 +13,23 @@ int main()
 }
 int input_n()
 {
+    int n;
+    printf("enter the number of natural numbers taken\n");
+    scanf("%d",&n);
+    return n;
+}
+
+int sum_n_nos(int n)
+{
+    int i ,sum=0;
+    for(i=0,i<n,i++)
+    {
+        sum=sum+i;
+    }
+    return sum;
     
+}
+void output(int n, int sum)
+{
+    printf("The sum of %d numbers is %d",n,sum);
 }
