@@ -14,7 +14,7 @@ int main()
 int input_n()
 {
     int n;
-    printf("enter the number of natural numbers taken\n");
+    printf("Enter the number of natural numbers taken\n");
     scanf("%d",&n);
     return n;
 }
