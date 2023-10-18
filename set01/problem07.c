@@ -7,13 +7,13 @@ void output(int n, int sum);
 int main()
 {
     int n,sum=0;
-    n=input();
+    n=input_n();
     sum=sum_n_nos(n);
     output(n,sum);
     return 0;
 }
 
-int input()
+int input_n()
 {
     int x;
     printf("Enter the number of natural numbers to be added");
