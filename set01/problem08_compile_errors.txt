@@ -1,0 +1,24 @@
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c: In function 'input_array_size':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:21:12: warning: character constant too long for its type
+     printf('Enter the number of natural numbers\n');
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:21:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:2:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:22:11: warning: multi-character character constant [-Wmultichar]
+     scanf('%d',&n);
+           ^~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:22:11: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:2:0:
+c:\mingw\include\stdio.h:667:41: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+                                         ^~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c: In function 'input_array':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:34:13: warning: 'return' with a value, in function returning void
+     return a[i];
+            ~^~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem08.c:26:6: note: declared here
+ void input_array(int n, int a[n])
+      ^~~~~~~~~~~
