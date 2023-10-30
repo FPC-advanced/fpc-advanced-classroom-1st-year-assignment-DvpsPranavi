@@ -14,5 +14,10 @@ int main()
 
 void input_two_strings(char *string1, char *string2)
 {
-    
+    printf("Enter the string : \n");
+    scanf("%s",string1);
+    printf("Enter the string : \n");
+    scanf("%s",string2);
+
 }
+
