@@ -24,3 +24,29 @@ c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          ^~~~~~
 c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:58:9: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 10/30/2023, 9:35:25 AM
+Compilation started at 10/30/2023, 9:43:42 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c: In function 'input_two_strings':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:17:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the string : \n");
+     ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:17:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:17:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:18:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s",string1);
+     ^~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:18:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:18:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c: In function 'output':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:50:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("%s is greater",string1);
+         ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:50:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:54:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("%s is greater",string2);
+         ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:54:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:58:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("Both string are same");
+         ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem10.c:58:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 10/30/2023, 9:43:43 AM
