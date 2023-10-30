@@ -13,3 +13,6 @@ int main()
 }
 
 void input_two_strings(char *string1, char *string2)
+{
+    
+}
