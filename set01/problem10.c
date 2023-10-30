@@ -42,3 +42,19 @@ int stringcompare(char *string1, char *string2)
         return 2;
     }
 }
+
+void output(char *string1, char *string2, int result)
+{
+    if(result==0)
+    {
+        printf("%s is greater",string1);
+    }
+    else if(result==1)
+    {
+        printf("%s is greater",string2);
+    }
+    else
+    {
+        printf("Both string are same");
+    }
+}
