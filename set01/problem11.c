@@ -20,8 +20,8 @@ Complex input_complex()
     printf("Enter the real part for C1\n");
     scanf("%f",&a.real);
     printf("Enter the img part for C1\n");
-    scanf("%f",&a.img);
-    printf("a is %f+i%f\n",a.real,a.img);
+    scanf("%f",&a.imginary);
+    printf("a is %f+i%f\n",a.real,a.imginary);
 
     printf("Enter the real part for C2\n");
     scanf("%f",&b.real);
