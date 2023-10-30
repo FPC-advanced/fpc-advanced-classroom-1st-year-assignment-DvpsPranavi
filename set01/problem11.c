@@ -26,8 +26,8 @@ Complex input_complex()
     printf("Enter the real part for C2\n");
     scanf("%f",&b.real);
     printf("Enter the img part for C2\n");
-    scanf("%f",&b.img);
-    printf("b is %f+i%f\n",b.real,b.img);
+    scanf("%f",&b.imginary);
+    printf("b is %f+i%f\n",b.real,b.imginary);
   
 }
 
@@ -35,12 +35,12 @@ Complex add_complex(Complex a, Complex b)
 {   
 	Complex sum;
 	sum.real=a.real+b.real;
-    sum.img=a.img +b.img;
+    sum.img=a.imginary +b.imginary;
 }
     
 void output(Complex a, Complex b, Complex sum)
 {
-	printf("The sum of a and b is %f+i%f\n",sum.real,sum.img);
+	printf("The sum of a and b is %f+i%f\n",sum.real,sum.imginary);
 	
 }
     
