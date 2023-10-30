@@ -23,3 +23,5 @@ PS C:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 Enter the number of natural numbers to be added3
 The sum of the first 3 natural numbers is 6
 PS C:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi> cd set01
+PS C:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01> gdb ./problem07
+
