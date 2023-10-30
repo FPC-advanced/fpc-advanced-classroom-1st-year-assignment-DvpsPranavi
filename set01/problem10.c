@@ -55,6 +55,6 @@ void output(char *string1, char *string2, int result)
     }
     else
     {
-        printf("Both string are same");
-    }
+        printf("Both string are same");
+    }
 }
