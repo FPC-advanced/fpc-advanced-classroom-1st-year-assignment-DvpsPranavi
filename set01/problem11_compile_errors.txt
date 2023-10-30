@@ -163,3 +163,86 @@ c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void output(Complex a, Complex b, Complex sum)
                                    ^~~~~~~
 Compilation finished at 10/30/2023, 10:15:52 AM
+Compilation started at 10/30/2023, 10:19:23 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:6:9: error: expected ';', identifier or '(' before 'struct'
+ typedef struct _complex Complex;
+         ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:7:1: error: unknown type name 'Complex'
+ Complex input_complex();
+ ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:8:1: error: unknown type name 'Complex'
+ Complex add_complex(Complex a, Complex b);
+ ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:8:21: error: expected declaration specifiers or '...' before 'Complex'
+ Complex add_complex(Complex a, Complex b);
+                     ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:8:32: error: expected declaration specifiers or '...' before 'Complex'
+ Complex add_complex(Complex a, Complex b);
+                                ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:9:13: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum);
+             ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:9:24: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum);
+                        ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:9:35: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum);
+                                   ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c: In function 'main':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:11:12: error: expected ';' before 'a'
+ {  Complex a,b,sum;
+            ^
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:12:12: error: expected ';' before 'input_complex'
+    Complex input_complex();
+            ^~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:13:12: error: expected ';' before 'add_complex'
+    Complex add_complex(a,b);
+            ^~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:14:4: warning: parameter names (without types) in function declaration
+    void output(a,b,sum);
+    ^~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c: At top level:
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:17:1: error: unknown type name 'Complex'
+ Complex input_complex()
+ ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c: In function 'input_complex':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:19:13: error: expected ';' before 'a'
+     Complex a,b;
+             ^
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:20:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the real part for C1\n");
+     ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:20:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:20:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:21:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f",&a.real);
+     ^~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:21:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:21:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:21:17: error: 'a' undeclared (first use in this function)
+     scanf("%f",&a.real);
+                 ^
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:21:17: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:27:17: error: 'b' undeclared (first use in this function)
+     scanf("%f",&b.real);
+                 ^
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c: At top level:
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:34:1: error: unknown type name 'Complex'
+ Complex add_complex(Complex a, Complex b)
+ ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:34:21: error: expected declaration specifiers or '...' before 'Complex'
+ Complex add_complex(Complex a, Complex b)
+                     ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:34:32: error: expected declaration specifiers or '...' before 'Complex'
+ Complex add_complex(Complex a, Complex b)
+                                ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:41:13: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum)
+             ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:41:24: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum)
+                        ^~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem11.c:41:35: error: expected declaration specifiers or '...' before 'Complex'
+ void output(Complex a, Complex b, Complex sum)
+                                   ^~~~~~~
+Compilation finished at 10/30/2023, 10:19:23 AM
