@@ -1,9 +1,11 @@
 //Write a C program to find the sum of 2 complex numbers
 #include <stdio.h>
+
 struct complex {
     float real;
     float imaginary;
-}
+};
+
 typedef struct complex Complex;
 
 Complex input_complex();
@@ -41,6 +43,3 @@ void output(Complex a, Complex b, Complex sum) {
     printf("b is %f+i%f\n", b.real, b.imaginary);
     printf("The sum of a and b is %f+i%f\n", sum.real, sum.imaginary);
 }
-
-
-
