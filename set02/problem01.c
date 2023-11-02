@@ -5,6 +5,7 @@ void output(float base, float height, float area);
 int main()
 {
     int base,height,area;
-    input(float *base, float *height);
+    input(*base,*height);
     
+
 }
