@@ -11,4 +11,4 @@ int main()
     return 0;
 }
 
-void output 
+void input(float *base,float *height)
