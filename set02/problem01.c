@@ -12,3 +12,6 @@ int main()
 }
 
 void input(float *base,float *height)
+{
+    
+}
