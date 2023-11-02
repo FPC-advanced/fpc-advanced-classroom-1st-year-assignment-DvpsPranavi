@@ -28,7 +28,7 @@ int main()
 int get_n()
 {
     int n;
-    printf("Enter the number of natural numbers\n");
+    printf("Enter the number of complex numbers to be added\n");
     scanf("%d",&n);
     return n;
 }
