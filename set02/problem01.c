@@ -14,7 +14,7 @@ int main()
 void input(float *base,float *height)
 {
     printf("Enter the base of the triangle\n");
-    scanf("%f",base);
+    scanf("%f",&base);
     printf("Enter the height of the triangle\n");
     scanf("%f",height);
 }
