@@ -108,3 +108,21 @@ c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      ^~~~~~
 c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:30:5: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 11/2/2023, 11:08:56 AM
+Compilation started at 11/2/2023, 11:09:48 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c: In function 'input':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:16:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the base of the triangle\n");
+     ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:16:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:16:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:17:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f",base);
+     ^~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:17:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:17:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c: In function 'output':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:30:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The area of the triangle with base %f ,height %f is %f\n",base,height,area);
+     ^~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem01.c:30:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/2/2023, 11:09:48 AM
