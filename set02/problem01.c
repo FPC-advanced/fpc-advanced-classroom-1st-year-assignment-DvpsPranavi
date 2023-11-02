@@ -13,5 +13,5 @@ int main()
 
 void input(float *base,float *height)
 {
-    
+    printf("Enter the base of the triangle\n")
 }
