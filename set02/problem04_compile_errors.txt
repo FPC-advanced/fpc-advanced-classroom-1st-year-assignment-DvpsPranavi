@@ -1,0 +1,27 @@
+Compilation started at 11/6/2023, 10:43:23 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: data definition has no type or storage class
+ input_array_size();
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: type defaults to 'int' in declaration of 'input_array_size' [-Wimplicit-int]
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ input_array_size()
+ ^~~~~~~~~~~~~~~~
+Compilation finished at 11/6/2023, 10:43:23 AM
+Compilation started at 11/6/2023, 10:46:24 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: data definition has no type or storage class
+ input_array_size();
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: type defaults to 'int' in declaration of 'input_array_size' [-Wimplicit-int]
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ input_array_size()
+ ^~~~~~~~~~~~~~~~
+Compilation finished at 11/6/2023, 10:46:24 AM
+Compilation started at 11/6/2023, 10:46:57 AM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: data definition has no type or storage class
+ input_array_size();
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: type defaults to 'int' in declaration of 'input_array_size' [-Wimplicit-int]
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ input_array_size()
+ ^~~~~~~~~~~~~~~~
+Compilation finished at 11/6/2023, 10:46:57 AM
