@@ -1,0 +1,79 @@
++l
+1	// 4.Write a C program to add two numbers using **pass by reference**
+2	#include <stdio.h>
+3	
+4	void input(int *a, int *b);
+5	void add(int a, int b, int *sum);
+6	void output(int a, int b, int sum);
+7	
+8	int main() {
+9	    int a, b, sum = 0;
+10	    input(&a, &b);
++b 37
+No line 37 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +b 39
+No line 39 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) +b 39
+No line 39 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) +info b
+No breakpoints or watchpoints.
++b 1
+Breakpoint 1 at 0x40146e: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c, line 1.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c:1
++b 39
+No line 39 in the current file.
+Make breakpoint pending on future shared library load? (y or [n]) Breakpoint 2 (39) pending.
++r
+Starting program: C:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01/./problem04.exe 
+[New Thread 23040.0x3424]
+[New Thread 23040.0x4958]
+
+Breakpoint 1, main ()
+    at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c:9
+9	    int a, b, sum = 0;
++step
+10	    input(&a, &b);
++step
+input (a=0x61ff1c, b=0x61ff18)
+    at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c:17
+17	    printf("Enter two numbers: ");
++print i
+No symbol "i" in current context.
++step
+18	    scanf("%d %d", a, b);
++print a
+$1 = (int *) 0x61ff1c
++print b
+$2 = (int *) 0x61ff18
++step
+19	}
++step
+main () at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c:11
+11	    add(a, b, &sum);
++print sum
+$3 = 0
++print a
+$4 = 3252224
++print b
+$5 = 0
++stpe
+Undefined command: "stpe".  Try "help".
++step
+add (a=3252224, b=0, sum=0x61ff14)
+    at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem04.c:22
+22	    *sum = a + b;
++print sum
+$6 = (int *) 0x61ff14
++step
+23	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 23040] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
