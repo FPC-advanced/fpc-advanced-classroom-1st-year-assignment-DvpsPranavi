@@ -12,3 +12,56 @@
 +b5
 Undefined command: "b5".  Try "help".
 +q
++l
+1	//7. Write a C program to find sum of all natural numbers until _n_
+2	#include <stdio.h>
+3	int input_n();
+4	int sum_n_nos(int n);
+5	void output(int n, int sum);
+6	
+7	int main()
+8	{
+9	    int n,sum=0;
+10	    n=input_n();
++b 9 
+Breakpoint 1 at 0x40146e: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c, line 9.
++b 26
+Breakpoint 2 at 0x4014da: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c, line 26.
++b 37
+Breakpoint 3 at 0x401507: file c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c, line 37.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c:9
+2       breakpoint     keep y   0x004014da in sum_n_nos 
+                                           at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c:26
+3       breakpoint     keep y   0x00401507 in output 
+                                           at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c:37
++run
+Starting program: C:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01/./problem07.exe 
+[New Thread 3732.0x5dd0]
+[New Thread 3732.0x1df0]
+
+Breakpoint 1, main ()
+    at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c:9
+9	    int n,sum=0;
++n
+10	    n=input_n();
++step
+input_n () at c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set01\problem07.c:19
+19	    printf("Enter the number of natural numbers to be added");
++n
+20	    scanf("%d",&x);
++n
+21	    return x;
++p x
+$1 = 23
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++q
+A debugging session is active.
+
+	Inferior 1 [process 3732] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
