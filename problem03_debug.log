@@ -2,3 +2,10 @@
 No symbol table is loaded.  Use the "file" command.
 +b 8
 No symbol table is loaded.  Use the "file" command.
++b 26
+No symbol table is loaded.  Use the "file" command.
++n
+The program is not being run.
++n
+The program is not being run.
++q
