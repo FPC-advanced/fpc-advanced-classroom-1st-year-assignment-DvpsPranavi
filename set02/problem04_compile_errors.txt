@@ -52,3 +52,50 @@ c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  input_array_size()
  ^~~~~~~~~~~~~~~~
 Compilation finished at 11/6/2023, 2:18:47 PM
+Compilation started at 11/9/2023, 4:02:56 PM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: data definition has no type or storage class
+ input_array_size();
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: type defaults to 'int' in declaration of 'input_array_size' [-Wimplicit-int]
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ input_array_size()
+ ^~~~~~~~~~~~~~~~
+Compilation finished at 11/9/2023, 4:02:56 PM
+Compilation started at 11/9/2023, 4:05:04 PM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: data definition has no type or storage class
+ input_array_size();
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:3:1: warning: type defaults to 'int' in declaration of 'input_array_size' [-Wimplicit-int]
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ input_array_size()
+ ^~~~~~~~~~~~~~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:49:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return &sum;
+            ^~~~
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:49:12: warning: function returns address of local variable [-Wreturn-local-addr]
+Compilation finished at 11/9/2023, 4:05:05 PM
+Compilation started at 11/9/2023, 4:09:33 PM
+Compilation finished at 11/9/2023, 4:09:34 PM
+Compilation started at 11/9/2023, 4:11:41 PM
+Compilation finished at 11/9/2023, 4:11:41 PM
+Compilation started at 11/9/2023, 4:26:45 PM
+Compilation finished at 11/9/2023, 4:26:45 PM
+Compilation started at 11/9/2023, 4:28:32 PM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:40:28: warning: comparison between pointer and integer
+     for (i = 0,j=0; i < n,j<a; i++,j++)
+                            ^
+Compilation finished at 11/9/2023, 4:28:32 PM
+Compilation started at 11/9/2023, 4:29:48 PM
+Compilation finished at 11/9/2023, 4:29:48 PM
+Compilation started at 11/9/2023, 4:35:03 PM
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\dvpsp\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-DvpsPranavi\set02\problem04.c:40:29: warning: comparison between pointer and integer
+     for (i = 0,j=0; i < n,j < a; i++,j++)
+                             ^
+Compilation finished at 11/9/2023, 4:35:03 PM
+Compilation started at 11/9/2023, 4:35:59 PM
+Compilation finished at 11/9/2023, 4:35:59 PM
+Compilation started at 11/9/2023, 4:36:08 PM
+Compilation finished at 11/9/2023, 4:36:08 PM
