@@ -26,10 +26,10 @@ float input() {
 
 float square_root(float n) {
     if (n < 0) {
-        return -1.0f; 
+        return -1; 
     }
 
-    float estimate = 1.0f;
+    float estimate = 1.;
     float prevEstimate=0;
 
     while (estimate != prevEstimate) {
@@ -44,6 +44,6 @@ void output(float n, float sqrroot) {
     if (sqrroot < 0) {
         printf("Cannot calculate the square root of a negative number.\n");
     } else {
-        printf("The square root of %.2f is approximately %.6f\n", n, sqrroot);
+        printf("The square root of %f is approximately %f\n", n, sqrroot);
     }
 }
