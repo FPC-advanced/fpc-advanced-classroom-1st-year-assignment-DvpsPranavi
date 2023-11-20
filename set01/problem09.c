@@ -30,7 +30,7 @@ float square_root(float n) {
     }
 
     float estimate = 1.0f;
-    float prevEstimate = 0.0f;
+    float prevEstimate ;
 
     while (estimate != prevEstimate) {
         prevEstimate = estimate;
