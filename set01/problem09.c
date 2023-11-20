@@ -34,7 +34,7 @@ float square_root(float n) {
 
     while (estimate != prevEstimate) {
         prevEstimate = estimate;
-        estimate = 0.5f * (estimate + n / estimate);
+        estimate =(estimate + n / estimate);
     }
 
     return estimate;
